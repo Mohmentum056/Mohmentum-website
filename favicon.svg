@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Mohmentum triple-chevron mark">
+<defs>
+  <linearGradient id="base" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2D0000"/><stop offset=".65" stop-color="#2D0000"/><stop offset="1" stop-color="#6D0808"/></linearGradient>
+  <radialGradient id="sageGlow" cx=".12" cy=".12" r=".88"><stop offset="0" stop-color="#757D6F" stop-opacity=".92"/><stop offset="1" stop-color="#757D6F" stop-opacity="0"/></radialGradient>
+  <radialGradient id="burgundyGlow" cx=".9" cy=".95" r=".65"><stop offset="0" stop-color="#6D0808" stop-opacity=".92"/><stop offset="1" stop-color="#6D0808" stop-opacity="0"/></radialGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EEEAD7" stop-opacity=".09"/><stop offset="1" stop-color="#EEEAD7" stop-opacity=".015"/></linearGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="24"/></filter>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#2D0000" flood-opacity=".45"/></filter>
+  <clipPath id="clip"><rect x="16" y="16" width="480" height="480" rx="104"/></clipPath>
+</defs>
+<g clip-path="url(#clip)">
+  <rect x="16" y="16" width="480" height="480" rx="104" fill="url(#base)"/>
+  <ellipse cx="142" cy="126" rx="218" ry="206" fill="url(#sageGlow)" filter="url(#soft)"/>
+  <ellipse cx="424" cy="420" rx="176" ry="165" fill="url(#burgundyGlow)" filter="url(#soft)"/>
+  <rect x="49" y="49" width="414" height="414" rx="84" fill="url(#panel)" stroke="#EEEAD7" stroke-opacity=".26" stroke-width="2.5"/>
+  <path d="M171 190 L225 256 L171 322" fill="none" stroke="#757D6F" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" filter="url(#shadow)"/>
+  <path d="M230 190 L284 256 L230 322" fill="none" stroke="#EEEAD7" stroke-opacity=".8" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M289 190 L343 256 L289 322" fill="none" stroke="#EEEAD7" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
